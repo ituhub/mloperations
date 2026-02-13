@@ -1,6 +1,44 @@
-streamlit
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
+# ML Model Monitoring Platform - Requirements
+# =============================================================================
+
+# Core Framework
+streamlit>=1.28.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+
+# Deep Learning (Optional)
+torch>=2.0.0
+
+# Visualization
+plotly>=5.15.0
+
+# Explainability
+shap>=0.42.0
+
+# HTTP Requests
+requests>=2.31.0
+
+# Utilities
+python-dateutil>=2.8.2
+
+# API Framework (for backend)
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+
+# Database (optional)
+# sqlalchemy>=2.0.0
+# redis>=4.5.0
+
+# Monitoring & Logging
+prometheus-client>=0.17.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
